@@ -44,6 +44,13 @@ namespace GUI_thing
         {
             actMessage();
         }
+        private void buttonTHEBUTTON_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Я супермегакнопка,\nі цього мене не позбавиш!");
 
+            if (checkTransparency.Checked) actTransparency();
+            if (checkBackgroundColor.Checked) actBackgroundColor();
+            if (checkMessage.Checked) actMessage(); //в Form1.cs [Design] зробити цы кнопки і чекбокси
+        }
     }
 }
