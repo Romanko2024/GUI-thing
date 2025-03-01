@@ -13,20 +13,20 @@ namespace GUI_thing
             actTransparency = ChangeTransparency;
             actBackgroundColor = ChangeBackgroundColor;
             actMessage = ShowHelloWorld;
-            private void ChangeTransparency()
-            {
-                //
-            }
-
-            private void ChangeBackgroundColor()
-            {
-                //
-            }
-
-            private void ShowHelloWorld()
-            {
-                MessageBox.Show("Hello, World!");
-            }
+            
+        }
+        private void ChangeTransparency()
+        {
+            //0.0 - ןנמחמנו. ÿךשמ 1.0 עמ ןנטגמהטלמ המ 0.5, ÿךשמ םû עמ המ 1.0
+            this.Opacity = this.Opacity == 1.0 ? 0.5 : 1.0;
+        }
+        private void ChangeBackgroundColor()
+        {
+            //
+        }
+        private void ShowHelloWorld()
+        {
+            MessageBox.Show("Hello, World!");
         }
     }
 }
