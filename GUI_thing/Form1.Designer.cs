@@ -86,7 +86,6 @@
             checkTransparency.TabIndex = 4;
             checkTransparency.Text = "\"супермегакнопка\" поглинає \"Прозорість\r\n\"";
             checkTransparency.UseVisualStyleBackColor = true;
-            checkTransparency.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // checkBackgroundColor
             // 
@@ -97,7 +96,6 @@
             checkBackgroundColor.TabIndex = 5;
             checkBackgroundColor.Text = "\"супермегакнопка\" поглинає \"Колір тла\"";
             checkBackgroundColor.UseVisualStyleBackColor = true;
-            checkBackgroundColor.CheckedChanged += checkBox2_CheckedChanged;
             // 
             // checkMessage
             // 
@@ -108,7 +106,6 @@
             checkMessage.TabIndex = 6;
             checkMessage.Text = "\"супермегакнопка\" поглинає \"hello World\"";
             checkMessage.UseVisualStyleBackColor = true;
-            checkMessage.CheckedChanged += checkBox3_CheckedChanged;
             // 
             // Form1
             // 
@@ -124,7 +121,6 @@
             Controls.Add(buttonTransparency);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
