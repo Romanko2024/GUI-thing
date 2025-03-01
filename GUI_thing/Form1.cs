@@ -28,5 +28,22 @@ namespace GUI_thing
         {
             MessageBox.Show("Hello, World!");
         }
+
+        //для кнопок оброб подый
+        private void buttonTransparency_Click(object sender, EventArgs e)
+        {
+            actTransparency();
+        }
+
+        private void buttonBackgroundColor_Click(object sender, EventArgs e)
+        {
+            actBackgroundColor();
+        }
+
+        private void buttonHelloWorld_Click(object sender, EventArgs e)
+        {
+            actMessage();
+        }
+
     }
 }
