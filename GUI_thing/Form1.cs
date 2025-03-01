@@ -22,7 +22,7 @@ namespace GUI_thing
         }
         private void ChangeBackgroundColor()
         {
-            //
+            this.BackColor = this.BackColor == Color.Gray ? Color.Yellow : Color.Gray;
         }
         private void ShowHelloWorld()
         {
