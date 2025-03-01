@@ -39,9 +39,9 @@
             // 
             // buttonTransparency
             // 
-            buttonTransparency.Location = new Point(448, 169);
+            buttonTransparency.Location = new Point(14, 13);
             buttonTransparency.Name = "buttonTransparency";
-            buttonTransparency.Size = new Size(75, 23);
+            buttonTransparency.Size = new Size(132, 40);
             buttonTransparency.TabIndex = 0;
             buttonTransparency.Text = "Прозорість";
             buttonTransparency.UseVisualStyleBackColor = true;
@@ -49,9 +49,9 @@
             // 
             // buttonBackgroundColor
             // 
-            buttonBackgroundColor.Location = new Point(361, 215);
+            buttonBackgroundColor.Location = new Point(152, 13);
             buttonBackgroundColor.Name = "buttonBackgroundColor";
-            buttonBackgroundColor.Size = new Size(75, 23);
+            buttonBackgroundColor.Size = new Size(132, 40);
             buttonBackgroundColor.TabIndex = 1;
             buttonBackgroundColor.Text = "Колір тла";
             buttonBackgroundColor.UseVisualStyleBackColor = true;
@@ -59,28 +59,28 @@
             // 
             // buttonHelloWorld
             // 
-            buttonHelloWorld.Location = new Point(486, 215);
+            buttonHelloWorld.Location = new Point(290, 13);
             buttonHelloWorld.Name = "buttonHelloWorld";
-            buttonHelloWorld.Size = new Size(75, 23);
+            buttonHelloWorld.Size = new Size(132, 40);
             buttonHelloWorld.TabIndex = 2;
             buttonHelloWorld.Text = "hello World";
             buttonHelloWorld.UseVisualStyleBackColor = true;
-            buttonBackgroundColor.Click += buttonHelloWorld_Click;
+            buttonHelloWorld.Click += buttonHelloWorld_Click;
             // 
             // buttonTHEBUTTON
             // 
-            buttonTHEBUTTON.Location = new Point(577, 215);
+            buttonTHEBUTTON.Location = new Point(14, 59);
             buttonTHEBUTTON.Name = "buttonTHEBUTTON";
-            buttonTHEBUTTON.Size = new Size(75, 23);
+            buttonTHEBUTTON.Size = new Size(408, 40);
             buttonTHEBUTTON.TabIndex = 3;
             buttonTHEBUTTON.Text = "супермегакнопка";
             buttonTHEBUTTON.UseVisualStyleBackColor = true;
-            buttonBackgroundColor.Click += buttonTHEBUTTON_Click;
+            buttonTHEBUTTON.Click += buttonTHEBUTTON_Click;
             // 
             // checkTransparency
             // 
             checkTransparency.AutoSize = true;
-            checkTransparency.Location = new Point(68, 296);
+            checkTransparency.Location = new Point(14, 105);
             checkTransparency.Name = "checkTransparency";
             checkTransparency.Size = new Size(258, 34);
             checkTransparency.TabIndex = 4;
@@ -91,7 +91,7 @@
             // checkBackgroundColor
             // 
             checkBackgroundColor.AutoSize = true;
-            checkBackgroundColor.Location = new Point(68, 336);
+            checkBackgroundColor.Location = new Point(14, 145);
             checkBackgroundColor.Name = "checkBackgroundColor";
             checkBackgroundColor.Size = new Size(253, 19);
             checkBackgroundColor.TabIndex = 5;
@@ -102,7 +102,7 @@
             // checkMessage
             // 
             checkMessage.AutoSize = true;
-            checkMessage.Location = new Point(577, 311);
+            checkMessage.Location = new Point(14, 170);
             checkMessage.Name = "checkMessage";
             checkMessage.Size = new Size(262, 19);
             checkMessage.TabIndex = 6;
@@ -114,7 +114,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(796, 452);
+            ClientSize = new Size(433, 197);
             Controls.Add(checkMessage);
             Controls.Add(checkBackgroundColor);
             Controls.Add(checkTransparency);
