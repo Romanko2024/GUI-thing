@@ -45,7 +45,7 @@
             buttonTransparency.TabIndex = 0;
             buttonTransparency.Text = "Прозорість";
             buttonTransparency.UseVisualStyleBackColor = true;
-            buttonTransparency.Click += button1_Click;
+            buttonTransparency.Click += buttonTransparency_Click;
             // 
             // buttonBackgroundColor
             // 
@@ -55,7 +55,7 @@
             buttonBackgroundColor.TabIndex = 1;
             buttonBackgroundColor.Text = "Колір тла";
             buttonBackgroundColor.UseVisualStyleBackColor = true;
-            buttonBackgroundColor.Click += button2_Click;
+            buttonBackgroundColor.Click += buttonBackgroundColor_Click;
             // 
             // buttonHelloWorld
             // 
@@ -65,6 +65,7 @@
             buttonHelloWorld.TabIndex = 2;
             buttonHelloWorld.Text = "hello World";
             buttonHelloWorld.UseVisualStyleBackColor = true;
+            buttonBackgroundColor.Click += buttonHelloWorld_Click;
             // 
             // buttonTHEBUTTON
             // 
@@ -74,6 +75,7 @@
             buttonTHEBUTTON.TabIndex = 3;
             buttonTHEBUTTON.Text = "супермегакнопка";
             buttonTHEBUTTON.UseVisualStyleBackColor = true;
+            buttonBackgroundColor.Click += buttonTHEBUTTON_Click;
             // 
             // checkTransparency
             // 
