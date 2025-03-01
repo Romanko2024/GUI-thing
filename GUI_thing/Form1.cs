@@ -13,7 +13,7 @@ namespace GUI_thing
             actTransparency = ChangeTransparency;
             actBackgroundColor = ChangeBackgroundColor;
             actMessage = ShowHelloWorld;
-            
+
         }
         private void ChangeTransparency()
         {
@@ -51,6 +51,36 @@ namespace GUI_thing
             if (checkTransparency.Checked) actTransparency();
             if (checkBackgroundColor.Checked) actBackgroundColor();
             if (checkMessage.Checked) actMessage(); //в Form1.cs [Design] зробити цы кнопки і чекбокси
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
